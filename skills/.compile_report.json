@@ -1,0 +1,87 @@
+{
+  "compiled_package_id": "packmol",
+  "evidence": {
+    "core_skills": [
+      "packmol-build-and-install",
+      "packmol-changelog"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/packmol-build-and-install.md",
+      "skills/.evidence/packmol-changelog.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "."
+    ],
+    "docs_only": false,
+    "notes": [
+      "Local docs are top-level README.md and CHANGELOG.md; comprehensive user docs are hosted at https://m3g.github.io/packmol.",
+      "testing/input_files contains runnable input examples used by the test suite.",
+      "Generator script was minimally patched for Python syntax compatibility and root-doc fallback in this layout."
+    ],
+    "package_name": "packmol",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "app",
+      "src",
+      "python"
+    ],
+    "test_dirs": [
+      "testing",
+      "python/tests"
+    ],
+    "tutorial_dirs": [
+      "testing/input_files"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/packmol-packmol",
+  "validation": {
+    "core_skills_checked": [
+      "packmol-simulation-workflows",
+      "packmol-build-and-install",
+      "packmol-changelog"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/packmol-packmol/skills/packmol-simulation-workflows/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/packmol-packmol/skills/packmol-build-and-install/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/packmol-packmol/skills/packmol-changelog/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "packmol-index"
+    ],
+    "ok": false,
+    "skills_total": 4,
+    "source_links_total": 18,
+    "topic_skills": 3,
+    "warnings": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "core_skills": [
+    "packmol-build-and-install",
+    "packmol-simulation-workflows",
+    "packmol-changelog"
+  ],
+  "evidence_dir": "skills/.evidence",
+  "files": [
+    "skills/.evidence/packmol-build-and-install.md",
+    "skills/.evidence/packmol-simulation-workflows.md",
+    "skills/.evidence/packmol-changelog.md"
+  ]
+}
